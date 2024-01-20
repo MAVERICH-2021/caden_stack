@@ -17,9 +17,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    // customize
-    // "baseUrl": "./src",
 
+    /* Aliases */
     "paths": {
       "@/*": ["./src/*"],
     }

@@ -8,6 +8,12 @@ import { AiOutlineAim } from "react-icons/ai";
 import { MdSpeed } from "react-icons/md";
 import { FiFilePlus } from "react-icons/fi";
 import { LuFolderPlus } from "react-icons/lu";
+import { FaAngleLeft } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
+
+
+export const IconLeft = () => <FaAngleLeft />;
+export const IconRight = () => <FaAngleRight />;
 
 export const IconTrashCan = () => <FaTrash />
 

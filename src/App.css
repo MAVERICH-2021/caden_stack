@@ -9,6 +9,14 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+  -ms-overflow-style: none;  /* for Internet Explorer, Edge */
+  scrollbar-width: none;  /* for Firefox */
+  overflow: hidden;
 }
 
 
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

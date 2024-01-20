@@ -11,8 +11,10 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.8",
     "axios": "^1.6.2",
-    "clsx": "^2.0.0",
+    "clsx": "^2.1.0",
+    "dayjs": "^1.11.10",
     "i18next": "^23.7.15",
     "i18next-browser-languagedetector": "^7.2.0",
     "json-server": "^0.17.4",
@@ -25,12 +27,13 @@
     "react-router-dom": "^6.20.1",
     "react-uuid": "^2.0.0",
     "styled-components": "5.1.0",
-    "vite-tsconfig-paths": "^4.2.3"
+    "vite-tsconfig-paths": "^4.3.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.6",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
+    "@tailwindcss/forms": "^0.5.7",
     "@testing-library/react": "^14.1.2",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
@@ -40,6 +43,7 @@
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.16",
     "babel-cli": "^6.26.0",
+    "daisyui": "^4.6.0",
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",

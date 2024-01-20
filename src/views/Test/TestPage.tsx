@@ -1,9 +1,9 @@
-import IntlTest from "./components/IntlTest";
+import GoogleCalendar from "../Calendar/GoogleCalendar";
 
 const TestPage = () => {
     return ( 
-        <div>
-            <IntlTest/>
+        <div className=" w-screen h-screen">
+            <GoogleCalendar/>
         </div>
      );
 }
