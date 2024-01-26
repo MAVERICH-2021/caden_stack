@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Welcome to Spring Blog</h1>
+    <div th:each="post : ${posts}">
+        <h3 th:text="${post.title}">Title</h3>
+        <h6 th:text="${post.description}"></h6>
+        <p th:text="${post.body}">Body</p>
+    </div>
+
+</body>
+</html>
