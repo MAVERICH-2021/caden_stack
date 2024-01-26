@@ -1,9 +1,11 @@
 import GoogleCalendar from "../Calendar/GoogleCalendar";
+import SuspenseFallback from "../SuspenseFallback/SuspenseFallback";
 
 const TestPage = () => {
     return ( 
         <div className=" w-screen h-screen">
-            <GoogleCalendar/>
+            {/* <GoogleCalendar/> */}
+            <SuspenseFallback/>
         </div>
      );
 }
