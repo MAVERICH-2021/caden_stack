@@ -3,7 +3,7 @@ import "./App.css";
 
 import useGreenBorder from "./hooks/useGreenBorder";
 import { Link } from "react-router-dom";
-import { AppRouter } from "./AppRouter";
+import { AppRouter } from "./router";
 import { IconArrow } from "./assets/icons/icons";
 
 function App() {

@@ -1,11 +1,7 @@
-import IntlTest from "./components/IntlTest";
+// import IntlTest from "./components/IntlTest";
 
 const TestPage = () => {
-    return ( 
-        <div>
-            <IntlTest/>
-        </div>
-     );
-}
- 
+  return <div>{/* <IntlTest/> */}</div>;
+};
+
 export default TestPage;
