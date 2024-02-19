@@ -1,0 +1,1 @@
+const positionInitData = ['1', '2', '3', null, '5', '6', '7', '8', '4']
